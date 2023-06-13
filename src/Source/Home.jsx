@@ -4,7 +4,6 @@ import { Section } from '../Jss/Section';
 import { Div } from '../Jss/Div';
 import Card from './Card';
 function Home(props) {
-  console.log(props.data.dataObject);
   const renderCard = () => {
     return props.data.dataObject.map((object, index) => {
       return <Card object={object} key={index}/>

@@ -9,6 +9,11 @@ export const Div = styled.div`
         margin: 0 auto;
     }
 `;
+export const DivCard = styled.div`
+    display: block;
+    padding 10px;
+    background-color: #333333;
+`;
 export const DivImage = styled.div`
     display: block;
     width : 100%;
@@ -16,5 +21,10 @@ export const DivImage = styled.div`
 export const DivTitle = styled.div`
     display: block;
     width: 100%;
-    background-color: #333333;
+`;
+export const DivButton = styled.div`
+    display: flex;
+    justify-content: space-around;
+    align-item: center;
+    padding: 30px 0;
 `;

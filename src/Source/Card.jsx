@@ -1,24 +1,45 @@
 import React from 'react'
 import { connect } from 'react-redux';
-import { Div, DivImage, DivTitle } from '../Jss/Div';
+import { DivButton, DivCard, DivImage, DivTitle } from '../Jss/Div';
 import { Image } from '../Jss/Img';
 import { H2Title } from '../Jss/H2';
+import { ButtonSelect } from '../Jss/Button';
+import { srcChange } from '../Redux/Actions/reduxActions';
 function Card(props) {
-  let {id,name,src,src1,src2,type} = props.object;
+  console.log(true);
+  let {id,name,src,type} = props.object;
   return (
-    <Div className='divCard'>
+    <DivCard>
       <DivImage>
         <Image src={src} alt={id}/>
       </DivImage>
       <DivTitle>
         <H2Title className={type}>{name}  </H2Title>
       </DivTitle>
-    </Div>
+      <DivButton>
+        <ButtonSelect onClick={()=>{props.selectImage(1,id)}} primary={type}>
+            image
+        </ButtonSelect>
+        <ButtonSelect onClick={()=>{props.selectImage(2,id)}} primary={type}>
+            image
+        </ButtonSelect>
+        <ButtonSelect onClick={()=>{props.selectImage(3,id)}} primary={type}>
+            image
+        </ButtonSelect>
+      </DivButton>
+    </DivCard>
   );
+};
+const mapStateToProps = state => {
+  return {
+    data : state.dataReducer,
+  };
 };
 const mapDispatchToProps = (dispatch) => {
   return {
-
+    selectImage: (number,id) => {
+      dispatch(srcChange(number,id))
+    },
   };
 };
-export default connect(null,mapDispatchToProps)(Card);
+export default connect(mapStateToProps,mapDispatchToProps)(Card);

@@ -2,26 +2,30 @@
     "artImage" : [
         {"id":1,"name":"uchiha itachi",
         "src":"./Images/itachi1.jfif",
-        "src1":"./Images/itachi2.jfif",
-        "src2":"./Images/itachi3.jfif",
+        "src1":"./Images/itachi1.jfif",
+        "src2":"./Images/itachi2.jfif",
+        "src3":"./Images/itachi3.jfif",
         "type":"primaryItachi"
         },
         {"id":2,"name":"namikaze minato",
         "src":"./Images/minato.jfif",
-        "src1":"https://i.pinimg.com/736x/6d/36/07/6d3607e3119b39deb4309f2e4fdcd114.jpg",
-        "src2":"https://www.hindustantimes.com/ht-img/img/2023/02/26/1600x900/Minato_Namikaze_1677422619649_1677422636473_1677422636473.jpg",
+        "src1":"./Images/minato.jfif",
+        "src2":"https://i.pinimg.com/736x/6d/36/07/6d3607e3119b39deb4309f2e4fdcd114.jpg",
+        "src3":"https://www.hindustantimes.com/ht-img/img/2023/02/26/1600x900/Minato_Namikaze_1677422619649_1677422636473_1677422636473.jpg",
         "type":"primaryMinato"
         },
         {"id":3,"name":"shank",
         "src":"https://i.pinimg.com/originals/6b/3d/78/6b3d780d4acbe3d77ca20cdd56095335.jpg",
-        "src1":"https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/08/15/3084510971.jpg",
-        "src2":"https://www.greenscene.co.id/wp-content/uploads/2020/12/One-Piece-33.jpg",
+        "src1":"https://i.pinimg.com/originals/6b/3d/78/6b3d780d4acbe3d77ca20cdd56095335.jpg",
+        "src2":"https://assets.pikiran-rakyat.com/crop/0x0:0x0/750x500/photo/2022/08/15/3084510971.jpg",
+        "src3":"https://www.greenscene.co.id/wp-content/uploads/2020/12/One-Piece-33.jpg",
         "type":"primaryShank"
         },
         {"id":4,"name":"eren yeager",
         "src":"https://i.pinimg.com/originals/c6/3a/5f/c63a5f0a436cb55edab690121cd237e5.png",
-        "src1":"https://i.pinimg.com/736x/aa/37/34/aa3734bd1a7611a7b2486b9a5b5ebf31.jpg",
-        "src2":"https://wallpapers.com/images/hd/eren-yeager-pfp-with-hair-down-pb0mdqky3pbrqkrx.jpg",
+        "src1":"https://i.pinimg.com/originals/c6/3a/5f/c63a5f0a436cb55edab690121cd237e5.png",
+        "src2":"https://i.pinimg.com/736x/aa/37/34/aa3734bd1a7611a7b2486b9a5b5ebf31.jpg",
+        "src3":"https://wallpapers.com/images/hd/eren-yeager-pfp-with-hair-down-pb0mdqky3pbrqkrx.jpg",
         "type":"primaryEren"
         }
     ]
